@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 import { ArrowRight, Sparkles, Download, Mail, ChevronDown } from "lucide-react";
 import { developerInfo } from "../data";
 
-const profilePic = "/src/assets/images/profile_avatar_1782985723040.jpg";
+import profilePic from "../assets/images/profile_avatar_1782985723040.jpg";
 
 interface HeroProps {
   onOpenResumeModal: () => void;
@@ -49,7 +49,7 @@ export default function Hero({ onOpenResumeModal }: HeroProps) {
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
-    } 
+    }
   };
 
   return (

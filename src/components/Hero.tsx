@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 import { ArrowRight, Sparkles, Download, Mail, ChevronDown } from "lucide-react";
 import { developerInfo } from "../data";
 
-import profilePic from "../assets/images/profile_avatar_1782985723040.jpg";
+import profilePic from ".../assets/images/profile_avatar_1782985723040.jpg";
 
 interface HeroProps {
   onOpenResumeModal: () => void;
